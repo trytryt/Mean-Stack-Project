@@ -1,0 +1,42 @@
+  .VacationCard {
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    font-family: Arial;
+} 
+ .Container img {
+    width: 200px;
+    height: 200px;
+  
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-bottom: 10px; 
+} 
+.VacationCard>div {
+    text-align: center;
+}
+
+button{
+    size: 100px;
+}
+.VacationCard>.Container:hover{
+    box-shadow: 10px 10px 10px 10px rgba(91,11,95,0.2)
+}
+
+.VacationCard>.Container {
+    box-shadow: 0 5px 6px red;
+    text-align: center;
+    padding: 8px 10px;
+    width: 350px;
+    margin: 10px 10px;
+    border-radius: 110px;
+} 
+
+
+
+
+
+
+
+
+
